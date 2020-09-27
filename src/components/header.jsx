@@ -1,8 +1,8 @@
-import React from "react"
-import headerStyles from "./header.module.scss"
-import Logo from "../icons/logo.svg"
+import React from 'react';
+import headerStyles from './header.module.scss';
+import Logo from '../icons/logo.svg';
 
-const Header = () => {
+function Header() {
   return (
     <header className={headerStyles.header}>
       <div className={headerStyles.logo}>
@@ -19,7 +19,7 @@ const Header = () => {
         </ul>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Header;
